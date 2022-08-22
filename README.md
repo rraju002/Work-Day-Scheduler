@@ -39,6 +39,7 @@ A scheduling application to allow for users to enjoy the benefits of utilizing a
 - This calendar is desktop and mobile compatible.
 
 ## Mock-Up
+<img width="1812" alt="Screen Shot 2022-08-22 at 1 33 57 AM" src="https://user-images.githubusercontent.com/105147266/185877210-04131f2f-6d69-47f2-8bd6-3ddc6ffb60ae.png">
 
 
 ## Contributor:
