@@ -1,7 +1,4 @@
-/*
- * The function currentDate() is called, which uses the moment.js library to get the current date and
- * time, and then displays it in the #currentDay div.
- */
+// Display today's day and date
 function currentDate() {
     var today = moment();
     $("#currentDay").text(today.format("MMM Do, YYYY"));
@@ -74,7 +71,7 @@ displayRows();
 //I want an event listener on the button to save my text input
 //-----------------------------------------
 
-// Saving the text input to local storage and then displaying it in the main input.
+ // Save text in local storage
 $(".saveBtn").on('click', function() {
     var textInput = $('.input').val();
     localStorage.setItem('textInput', textInput);

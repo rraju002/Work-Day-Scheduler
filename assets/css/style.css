@@ -18,10 +18,10 @@ body {
   .jumbotron {
     text-align: center;
     background-color: transparent;
-    color: white;
+    color: black;
     border-radius: 0;
-    border-bottom: 10px solid black;
-    background-image: url('../Assets/images/background.jpg');
+    border-bottom: 10px solid white;
+    background-image: url('../images/background.jpeg');
   }
   
   .description {
