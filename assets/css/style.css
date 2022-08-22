@@ -1,13 +1,15 @@
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    background: linear-gradient(to right, #cc2b5e, #753a88);
   }
   
   textarea {
     background: transparent;
-    border:#000000;
+    border: none;
     resize: none;
+    width: 100%;
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
@@ -16,25 +18,19 @@ body {
   .jumbotron {
     text-align: center;
     background-color: transparent;
-    color: black;
+    color: white;
     border-radius: 0;
     border-bottom: 10px solid black;
+    background-image: url('../Assets/images/background.jpg');
   }
   
   .description {
     white-space: pre-wrap;
-    color: #8577dd;
   }
   
   .time-block {
     text-align: center;
     border-radius: 15px;
-  }
-  
-  .row {
-    white-space: pre-wrap;
-    height: 80px;
-    border-top: 1px solid #301934;
   }
   
   .hour {
@@ -59,38 +55,28 @@ body {
   }
   
   .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: black;
-    color: white;
+    background: none;
+    border: none;
+    font-size: 35px;
   }
   
   .saveBtn i:hover {
-    font-size: 20px;
+    font-size: 40px;
     transition: all 0.3s ease-in-out;
   }
   
-  /*** OVERWRITE - MEDIA QUERY FOR TABLETS AND SMALLER  ***/
-  /* This will be applied on any screen 768px and bellow */
-  @media screen and (max-width: 768px), screen and (max-width: 575px) {
-    .row {
-      height: auto;
-      margin-top: 20px;
-    }
+  .row {
+    list-style-type: none;
+    margin: 10px;
+    width: 100%;
+    height: 90px;
+    /* white-space: pre-wrap; */
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
   
-    .hour {
-      padding-right: 17%;
-    }
-  
-    .saveBtn {
-      border: 0;
-      border-radius: 0.25rem;
-      height: 50px;
-    }
-  
-    textarea {
-      min-height: 85px;
-      border: 0;
-    }
+  .hours {
+    color: white;
   }
