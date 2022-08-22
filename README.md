@@ -1,7 +1,7 @@
 # Work Day Scheduler
 
 ### GitHub: https://github.com/rraju002/Work-Day-Scheduler.git
-### URL : 
+### URL : https://rraju002.github.io/Work-Day-Scheduler/
 
 ## Description
 A scheduling application to allow for users to enjoy the benefits of utilizing a planner in both their work and daily lives!
